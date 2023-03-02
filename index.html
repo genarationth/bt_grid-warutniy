@@ -28,6 +28,7 @@
     header {
       height: 5rem;
       background-color: #8f0320;
+      opacity: 0.9;
       color: white;
       display: flex;
       justify-content: center;
@@ -38,18 +39,26 @@
       color: red;
     }
 
+    .flag {
+    background-image: url(https://www.premierleague.com/resources/prod/v6.111.2-4807/i/sprites/flags-sprite.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    }
+
   </style>
 
 </head>
 
 <body> 
 
-  <header>
+  <header class="fixed-top">
     <h1>Liverpool FC Squad Information 2022/2023</h1>
   </header>
 
   <!-- Start Container -->
-  <div class="container">
+  <div class="container pt-5">
 
     <!-- Start Row -->
     <div class="row">
@@ -62,7 +71,10 @@
             <h5 class="card-title"><strong>Alisson Becker</strong></h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Brazil</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/652754032/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%8B%E0%B8%B4%E0%B8%A5.jpg?s=612x612&w=0&k=20&c=sQXnZ3zbdsaxxAWHLNk3ukdtGZ5d2ohRKKiDsfBDDSQ=" alt="Brazil Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Brazil</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -71,6 +83,10 @@
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Clean Sheets</span>
               <span><strong>9</strong></span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
+              <span class="text-secondary">Assists</span>
+              <span><strong>1</strong></span>
             </div>
             <div class="d-flex justify-content-end">
               <a href="#" class="breadcrumb-item">View Player</a>
@@ -88,7 +104,10 @@
             <h5 class="card-title">Joe Gomez</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>England</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/665765518/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9.jpg?s=612x612&w=0&k=20&c=sGS6EVw_DADE044pYgtuAFiPLFO4NvVsHBe001eQYzI=" alt="England Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>England</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -118,7 +137,10 @@
             <h5 class="card-title">Virgil van Dijkr</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Netherlands</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/1368619295/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%94%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=0UlVtSFny0SUV9UtvGV37gE4Qw_tf3gh4lY838_IqbI=" alt="Netherlands Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Netherlands</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -148,7 +170,10 @@
             <h5 class="card-title">Ibrahima Konaté</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>France</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/457419503/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A8%E0%B8%AA.jpg?s=612x612&w=0&k=20&c=UjLXriRvfGS_w6bvxpEO0rP8c-5wvs2RpqRk_cqHZCs=" alt="France Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>France</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -178,7 +203,10 @@
             <h5 class="card-title">Andrew Robertson</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Scotland</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/493586602/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%81%E0%B8%AD%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%94%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=IVbEsfJX27OaZ9fZOxFM6JpSRHupDkrb1HOjlGiR6o0=" alt="Scotland Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Scotland</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -208,7 +236,10 @@
             <h5 class="card-title">Trent Alexander-Arnold</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>England</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/665765518/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9.jpg?s=612x612&w=0&k=20&c=sGS6EVw_DADE044pYgtuAFiPLFO4NvVsHBe001eQYzI=" alt="England Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>England</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -238,7 +269,10 @@
             <h5 class="card-title">Fabinho</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Brazil</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/652754032/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%8B%E0%B8%B4%E0%B8%A5.jpg?s=612x612&w=0&k=20&c=sQXnZ3zbdsaxxAWHLNk3ukdtGZ5d2ohRKKiDsfBDDSQ=" alt="Brazil Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Brazil</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -268,7 +302,10 @@
             <h5 class="card-title">Thiago</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Spain</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/494642342/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%83%E0%B8%99%E0%B8%A2%E0%B8%B8%E0%B9%82%E0%B8%A3%E0%B8%9B.jpg?s=612x612&w=0&k=20&c=SENkm2bKkXhX1LV2F2_yl7Y6l3i8tGlmf-SVPn9nsjk=" alt="Spain Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Spain</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -298,7 +335,10 @@
             <h5 class="card-title">James Milner</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>England</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/665765518/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9.jpg?s=612x612&w=0&k=20&c=sGS6EVw_DADE044pYgtuAFiPLFO4NvVsHBe001eQYzI=" alt="England Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>England</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -328,7 +368,10 @@
             <h5 class="card-title">Jordan Henderson</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>England</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/665765518/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9.jpg?s=612x612&w=0&k=20&c=sGS6EVw_DADE044pYgtuAFiPLFO4NvVsHBe001eQYzI=" alt="England Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>England</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -358,7 +401,10 @@
             <h5 class="card-title">Roberto Firmino</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Brazil</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/652754032/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%8B%E0%B8%B4%E0%B8%A5.jpg?s=612x612&w=0&k=20&c=sQXnZ3zbdsaxxAWHLNk3ukdtGZ5d2ohRKKiDsfBDDSQ=" alt="Brazil Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Brazil</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -388,7 +434,10 @@
             <h5 class="card-title">Mohamed Salah</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Egype</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/1248230903/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%B4%E0%B8%9B%E0%B8%95%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=xdLwDomC5CbtfuBQQXKnJV35GtS3tLDH2HGsf43yeew=" alt="Egype Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Egype</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -418,7 +467,10 @@
             <h5 class="card-title">Cody Gakpo</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Netherlands</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/1368619295/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%94%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=0UlVtSFny0SUV9UtvGV37gE4Qw_tf3gh4lY838_IqbI=" alt="Netherlands Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Netherlands</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -448,7 +500,10 @@
             <h5 class="card-title">Diogo Jota</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Portugal</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/537205462/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B8%95%E0%B8%B8%E0%B9%80%E0%B8%81%E0%B8%AA.jpg?s=612x612&w=0&k=20&c=LPmEGyLPor6uKulSuci_4AoW1_2Vx8HfvVNMPOWhsME=" alt="Portugal Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Portugal</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -478,7 +533,10 @@
             <h5 class="card-title">Luis Díaz</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Colombia</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/537207288/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2.jpg?s=612x612&w=0&k=20&c=X4R3AheL-dlpcGkjr_u8D1D2-OBppVgXtlGk2KhSN8w=" alt="Colombia Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Colombia</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
@@ -508,7 +566,10 @@
             <h5 class="card-title">Darwin Núñez</h5>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Nationality</span>
-              <span><strong>Uruguay</strong></span>
+              <div class="d-flex justify-content-end" >
+                <img src="https://media.istockphoto.com/id/537226568/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%98%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B8%A3%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2.jpg?s=612x612&w=0&k=20&c=M6Dbxnr41WIjs70XZVgvnWIITqhc8ZL9k0IHmr2Ni7Y=" alt="Uruguay Flag" width="30px" height="20px" />
+                <span class="ps-1"><strong>Uruguay</strong></span>
+              </div>
             </div>
             <div class="d-flex justify-content-between border-bottom border-secondary pb-1">
               <span class="text-secondary">Appearances</span>
